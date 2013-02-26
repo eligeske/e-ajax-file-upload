@@ -113,7 +113,7 @@ $(<st>'#demoSend'</st>).click(<k>function</k>(){
 </pre>
 				<h3>Ajax Send Method</h3>
 				<pre class="prettyprint"><cm>/**
-* Post a file object to server view Ajax
+* Post a file object to server via Ajax
 * Params: file (DOM File object)
 **/</cm>
 <k>var</k> <o>sendFile</o> <eq>=</eq> <k>function</k>(<v>file</v>){
