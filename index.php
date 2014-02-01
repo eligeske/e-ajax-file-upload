@@ -1,5 +1,5 @@
 <?php
-
+// comment
 if(isset($_GET['upload'])){
 	
 	echo json_encode($_FILES);	
