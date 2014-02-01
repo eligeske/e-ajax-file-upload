@@ -5,7 +5,7 @@ if(isset($_GET['upload'])){
 	echo json_encode($_FILES);	
 	exit();
 }
-
+// comment
 ?>
 
 <!DOCTYPE html>
