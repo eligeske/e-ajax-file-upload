@@ -47,8 +47,7 @@ if(isset($_GET['upload'])){
 				try{  $('body input')[0].files[0]; }
 				catch(e){ 
 					$('h1 small').removeClass('oui').addClass('negs').text('This browser is not supported'); 
-				}
-				
+				}				
 				// enable button
 				$($('body input')[0]).change(function(){
 					if($(this)[0].files.length){
@@ -84,6 +83,7 @@ if(isset($_GET['upload'])){
 	</head>
 
 	<body>
+        <div></div>
 		<div>
 			<header>
 				<h1>Ajax File Upload <small class="oui">This browser is supported</small></h1>
