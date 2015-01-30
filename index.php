@@ -83,7 +83,7 @@ if(isset($_GET['upload'])){
 	</head>
 
 	<body>
-        <div>asdasf</div>
+        <div>testvs3</div>
 		<div>
 			<header>
 				<h1>Ajax File Upload <small class="oui">This browser is supported</small></h1>
