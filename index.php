@@ -40,8 +40,7 @@ if(isset($_GET['upload'])){
 		<script>		
 			<?php $url = $_SERVER['PHP_SELF']."?upload=true"; ?>
 			
-			var uploadURL = "<?php echo $url; ?>";
-			
+			var uploadURL = "<?php echo $url; ?>";			
 			$(function(){
 				
 				// Check for File Object support in this browser
